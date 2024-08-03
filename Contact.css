@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #081b29;
+    color: white;
+}
+
+.container {
+    display: flex; /* Add this to make the children flex items */
+    justify-content: space-between; /* Optional: Adjust spacing between items */
+    align-items: flex-start; /* Optional: Align items to the start of the container */
+    flex-wrap: wrap; /* Optional: Allow items to wrap if the container is too small */
+    padding: 20px; /* Optional: Add some padding to the container */
+}
+
+.contact-left {
+    flex-basis: 35%;
+    margin-right: 5%; /* Optional: Add some margin between the two columns */
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+.contact-left p {
+    margin-top: 30px;
+}
+
+.contact-left p i {
+    color: aqua;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #fff;
+    display: inline-block;
+}
