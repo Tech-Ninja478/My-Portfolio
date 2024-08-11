@@ -19,12 +19,12 @@ body {
 }
 
 .contact-left {
-    flex-basis: 35%;
-    margin-right: 5%; /* Optional: Add some margin between the two columns */
+    padding: 20px;
 }
 
 .contact-right {
-    flex-basis: 60%;
+    margin-left: 490px;
+    margin-top: -170px;
 }
 
 .contact-left p {
@@ -47,4 +47,50 @@ body {
     margin-right: 15px;
     color: #fff;
     display: inline-block;
+    transition: transform 0.5s;
 }
+
+.social-icons a:hover{
+    color: aqua;
+    transform: translateY(-5px);
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: aqua;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 40px;
+    font-size: 15px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+button:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+
